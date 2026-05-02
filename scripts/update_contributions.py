@@ -147,8 +147,14 @@ def display_name(repo_slug: str) -> str:
     return DISPLAY_NAMES.get(repo_slug, repo_slug)
 
 
-def build_table(prs: list[dict], stars_by_repo: dict[str, int]) -> str:
-    """Group by repo; sort repos by stars × PR count desc; within repo, newest PR first."""
+def _build_one_table(
+    prs: list[dict],
+    stars_by_repo: dict[str, int],
+) -> str:
+    """One table for a single status bucket. Empty input → '_None._' line."""
+    if not prs:
+        return "_None._"
+
     by_repo: dict[str, list[dict]] = {}
     for pr in prs:
         by_repo.setdefault(pr["repo_full"], []).append(pr)
@@ -163,8 +169,8 @@ def build_table(prs: list[dict], stars_by_repo: dict[str, int]) -> str:
     sorted_repos = sorted(by_repo.items(), key=repo_sort_key)
 
     lines = [
-        "| Status | Project | Stars | PR | Description |",
-        "|--------|---------|-------|----|-------------|",
+        "| Project | Stars | PR | Description |",
+        "|---------|-------|----|-------------|",
     ]
 
     for repo_full, pr_list in sorted_repos:
@@ -180,11 +186,24 @@ def build_table(prs: list[dict], stars_by_repo: dict[str, int]) -> str:
             if len(title) > 72:
                 title = title[:69] + "..."
             lines.append(
-                f"| {pr['status']} | {link} | {stars_cell} | "
+                f"| {link} | {stars_cell} | "
                 f"[#{pr['number']}]({pr['url']}) | {title} |"
             )
 
     return "\n".join(lines)
+
+
+def build_sections(prs: list[dict], stars_by_repo: dict[str, int]) -> str:
+    """Render two sections: '## Merged' and '## In Review'."""
+    merged = [p for p in prs if p["status"] == "✅"]
+    in_review = [p for p in prs if p["status"] == "⏳"]
+
+    return (
+        f"## Merged ({len(merged)})\n\n"
+        f"{_build_one_table(merged, stars_by_repo)}\n\n"
+        f"## In Review ({len(in_review)})\n\n"
+        f"{_build_one_table(in_review, stars_by_repo)}"
+    )
 
 
 def main() -> None:
@@ -208,7 +227,7 @@ def main() -> None:
     for pr in all_prs:
         fetch_stars(pr["repo_full"], token, stars_cache)
 
-    table = build_table(all_prs, stars_cache)
+    table = build_sections(all_prs, stars_cache)
 
     # In-place rewrite: read README, splice new table between markers,
     # preserve the prose around the table block.
