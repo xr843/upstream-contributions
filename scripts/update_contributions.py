@@ -199,9 +199,9 @@ def build_sections(prs: list[dict], stars_by_repo: dict[str, int]) -> str:
     in_review = [p for p in prs if p["status"] == "⏳"]
 
     return (
-        f"## Merged ({len(merged)})\n\n"
+        f"## Merged\n\n"
         f"{_build_one_table(merged, stars_by_repo)}\n\n"
-        f"## In Review ({len(in_review)})\n\n"
+        f"## In Review\n\n"
         f"{_build_one_table(in_review, stars_by_repo)}"
     )
 
