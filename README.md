@@ -5,7 +5,7 @@ Pull requests by [@xr843](https://github.com/xr843) to external open-source proj
 > Sorted by *(stars × PR count)* descending. The first row of each project carries a ⭐ badge.
 
 <!-- CONTRIBUTIONS:START -->
-## Merged (25)
+## Merged
 
 | Project | Stars | PR | Description |
 |---------|-------|----|-------------|
@@ -35,7 +35,7 @@ Pull requests by [@xr843](https://github.com/xr843) to external open-source proj
 | [buddhist-uni.github.io](https://github.com/buddhist-uni/buddhist-uni.github.io) |  | [#636](https://github.com/buddhist-uni/buddhist-uni.github.io/pull/636) | Added Node.js unit tests for core JavaScript utilities |
 | [buddhist-uni.github.io](https://github.com/buddhist-uni/buddhist-uni.github.io) |  | [#634](https://github.com/buddhist-uni/buddhist-uni.github.io/pull/634) | Add help text to Archive.org borrowable links |
 
-## In Review (6)
+## In Review
 
 | Project | Stars | PR | Description |
 |---------|-------|----|-------------|
