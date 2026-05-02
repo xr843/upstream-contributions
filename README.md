@@ -1,9 +1,5 @@
 # Upstream Contributions
 
-Pull requests by [@xr843](https://github.com/xr843) to external open-source projects.
-
-> Sorted by *(stars × PR count)* descending. The first row of each project carries a ⭐ badge.
-
 <!-- CONTRIBUTIONS:START -->
 ## Merged
 
@@ -47,30 +43,3 @@ Pull requests by [@xr843](https://github.com/xr843) to external open-source proj
 | [Cherry Studio](https://github.com/CherryHQ/cherry-studio) | ![](https://img.shields.io/github/stars/CherryHQ/cherry-studio?style=flat-square&label=) | [#14083](https://github.com/CherryHQ/cherry-studio/pull/14083) | fix: clean up OAuth tokens when deleting MCP server |
 <!-- CONTRIBUTIONS:END -->
 
----
-
-## Automation
-
-`scripts/update_contributions.py` queries the GitHub Search API for [@xr843](https://github.com/xr843)'s PRs in external repos and rewrites this README in place between the markers above.
-
-```bash
-# Run locally (needs `gh auth login` or GITHUB_TOKEN)
-python scripts/update_contributions.py
-```
-
-A weekly GitHub Actions workflow (`.github/workflows/update.yml`) refreshes it automatically.
-
-## Sort logic
-
-`stars × PR count`:
-
-- pure stars hides depth (you contributed twice to a 200⭐ project as much as once to a 50K⭐ one — depth matters)
-- pure PR count rewards stale low-impact projects too aggressively
-- the product captures both *how high the mountain* and *how many times you climbed it*
-
-Within each project, PRs are listed by number descending (newest first).
-
-## Related
-
-- Profile: [@xr843](https://github.com/xr843)
-- Main projects: [FoJin](https://github.com/xr843/fojin) · [Master-skill](https://github.com/xr843/Master-skill) · [Buddhist-Text-Collation](https://github.com/xr843/Buddhist-Text-Collation)
