@@ -38,8 +38,9 @@
 | [Dify](https://github.com/langgenius/dify) | ![](https://img.shields.io/github/stars/langgenius/dify?style=flat-square&label=) | [#34560](https://github.com/langgenius/dify/pull/34560) | fix(types): widen ToolProviderApiEntity icon to include EmojiIconDict |
 | [LiteLLM](https://github.com/BerriAI/litellm) | ![](https://img.shields.io/github/stars/BerriAI/litellm?style=flat-square&label=) | [#26868](https://github.com/BerriAI/litellm/pull/26868) | fix(embedding): respect drop_params for unsupported dimensions parameter |
 | [LiteLLM](https://github.com/BerriAI/litellm) |  | [#26867](https://github.com/BerriAI/litellm/pull/26867) | fix(proxy): coerce numeric budget settings from env var to float |
+| [Cherry Studio](https://github.com/CherryHQ/cherry-studio) | ![](https://img.shields.io/github/stars/CherryHQ/cherry-studio?style=flat-square&label=) | [#14802](https://github.com/CherryHQ/cherry-studio/pull/14802) | feat(notification): notify on every assistant completion + sound toggle |
+| [Cherry Studio](https://github.com/CherryHQ/cherry-studio) |  | [#14083](https://github.com/CherryHQ/cherry-studio/pull/14083) | fix: clean up OAuth tokens when deleting MCP server |
 | [autogen](https://github.com/microsoft/autogen) | ![](https://img.shields.io/github/stars/microsoft/autogen?style=flat-square&label=) | [#7611](https://github.com/microsoft/autogen/pull/7611) | feat(code_executors): add opt-in sandbox flag to LocalCommandLineCode... |
 | [crewAI](https://github.com/crewAIInc/crewAI) | ![](https://img.shields.io/github/stars/crewAIInc/crewAI?style=flat-square&label=) | [#5307](https://github.com/crewAIInc/crewAI/pull/5307) | fix: replace eval() with safe AST evaluator in calculator template |
-| [Cherry Studio](https://github.com/CherryHQ/cherry-studio) | ![](https://img.shields.io/github/stars/CherryHQ/cherry-studio?style=flat-square&label=) | [#14083](https://github.com/CherryHQ/cherry-studio/pull/14083) | fix: clean up OAuth tokens when deleting MCP server |
 <!-- CONTRIBUTIONS:END -->
 
