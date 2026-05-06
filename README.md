@@ -35,7 +35,11 @@
 
 | Project | Stars | PR | Description |
 |---------|-------|----|-------------|
-| [Dify](https://github.com/langgenius/dify) | ![](https://img.shields.io/github/stars/langgenius/dify?style=flat-square&label=) | [#34560](https://github.com/langgenius/dify/pull/34560) | fix(types): widen ToolProviderApiEntity icon to include EmojiIconDict |
+| [Dify](https://github.com/langgenius/dify) | ![](https://img.shields.io/github/stars/langgenius/dify?style=flat-square&label=) | [#35843](https://github.com/langgenius/dify/pull/35843) | fix(commands): purge tenant tool credentials on reset-encrypt-key-pai... |
+| [Dify](https://github.com/langgenius/dify) |  | [#35797](https://github.com/langgenius/dify/pull/35797) | fix(security): tenant-scope FilePreviewApi text-extract endpoint (GHS... |
+| [Dify](https://github.com/langgenius/dify) |  | [#35796](https://github.com/langgenius/dify/pull/35796) | fix(security): reject path traversal sequences before plugin daemon f... |
+| [Dify](https://github.com/langgenius/dify) |  | [#35793](https://github.com/langgenius/dify/pull/35793) | fix(security): enforce tenant scoping on app trace-config endpoints (... |
+| [Dify](https://github.com/langgenius/dify) |  | [#34560](https://github.com/langgenius/dify/pull/34560) | fix(types): widen ToolProviderApiEntity icon to include EmojiIconDict |
 | [LiteLLM](https://github.com/BerriAI/litellm) | ![](https://img.shields.io/github/stars/BerriAI/litellm?style=flat-square&label=) | [#26868](https://github.com/BerriAI/litellm/pull/26868) | fix(embedding): respect drop_params for unsupported dimensions parameter |
 | [LiteLLM](https://github.com/BerriAI/litellm) |  | [#26867](https://github.com/BerriAI/litellm/pull/26867) | fix(proxy): coerce numeric budget settings from env var to float |
 | [Cherry Studio](https://github.com/CherryHQ/cherry-studio) | ![](https://img.shields.io/github/stars/CherryHQ/cherry-studio?style=flat-square&label=) | [#14802](https://github.com/CherryHQ/cherry-studio/pull/14802) | feat(notification): notify on every assistant completion + sound toggle |
