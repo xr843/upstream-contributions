@@ -7,6 +7,7 @@
 |---------|-------|----|-------------|
 | [Dify](https://github.com/langgenius/dify) | ![](https://img.shields.io/github/stars/langgenius/dify?style=flat-square&label=) | [#35843](https://github.com/langgenius/dify/pull/35843) | fix(commands): purge tenant tool credentials on reset-encrypt-key-pai... |
 | [Dify](https://github.com/langgenius/dify) |  | [#35797](https://github.com/langgenius/dify/pull/35797) | fix(security): tenant-scope FilePreviewApi text-extract endpoint (GHS... |
+| [Dify](https://github.com/langgenius/dify) |  | [#35796](https://github.com/langgenius/dify/pull/35796) | fix(security): reject path traversal sequences before plugin daemon f... |
 | [Dify](https://github.com/langgenius/dify) |  | [#35793](https://github.com/langgenius/dify/pull/35793) | fix(security): enforce tenant scoping on app trace-config endpoints (... |
 | [Dify](https://github.com/langgenius/dify) |  | [#35726](https://github.com/langgenius/dify/pull/35726) | fix(plugin): preserve multi-value HTTP response headers |
 | [Dify](https://github.com/langgenius/dify) |  | [#35267](https://github.com/langgenius/dify/pull/35267) | test(types): replace Account/Tenant status string literals with enum ... |
@@ -14,7 +15,8 @@
 | [Dify](https://github.com/langgenius/dify) |  | [#34379](https://github.com/langgenius/dify/pull/34379) | refactor: migrate service_api and inner_api to sessionmaker pattern |
 | [Dify](https://github.com/langgenius/dify) |  | [#33769](https://github.com/langgenius/dify/pull/33769) | fix: remove legacy z-index overrides on model config popup |
 | [Dify](https://github.com/langgenius/dify) |  | [#33767](https://github.com/langgenius/dify/pull/33767) | fix(tests): correct keyword arguments in tool provider test constructors |
-| [Gradio](https://github.com/gradio-app/gradio) | ![](https://img.shields.io/github/stars/gradio-app/gradio?style=flat-square&label=) | [#13384](https://github.com/gradio-app/gradio/pull/13384) | fix(security): isolate /proxy= cookie jars across Spaces (GHSA-2mr9-9... |
+| [Gradio](https://github.com/gradio-app/gradio) | ![](https://img.shields.io/github/stars/gradio-app/gradio?style=flat-square&label=) | [#13388](https://github.com/gradio-app/gradio/pull/13388) | test: regression coverage for from_config proxy_url SSRF guard (GHSA-... |
+| [Gradio](https://github.com/gradio-app/gradio) |  | [#13384](https://github.com/gradio-app/gradio/pull/13384) | fix(security): isolate /proxy= cookie jars across Spaces (GHSA-2mr9-9... |
 | [Gradio](https://github.com/gradio-app/gradio) |  | [#13204](https://github.com/gradio-app/gradio/pull/13204) | fix: preserve special characters in uploaded filenames |
 | [Gradio](https://github.com/gradio-app/gradio) |  | [#13182](https://github.com/gradio-app/gradio/pull/13182) | fix: make example field optional in cc build |
 | [Gradio](https://github.com/gradio-app/gradio) |  | [#13159](https://github.com/gradio-app/gradio/pull/13159) | fix: add Starlette 1.0 compatibility |
@@ -41,12 +43,10 @@
 | Project | Stars | PR | Description |
 |---------|-------|----|-------------|
 | [Dify](https://github.com/langgenius/dify) | ![](https://img.shields.io/github/stars/langgenius/dify?style=flat-square&label=) | [#36197](https://github.com/langgenius/dify/pull/36197) | fix(security): reject internal-address targets in MCP server_url vali... |
-| [Dify](https://github.com/langgenius/dify) |  | [#35796](https://github.com/langgenius/dify/pull/35796) | fix(security): reject path traversal sequences before plugin daemon f... |
 | [LiteLLM](https://github.com/BerriAI/litellm) | ![](https://img.shields.io/github/stars/BerriAI/litellm?style=flat-square&label=) | [#26868](https://github.com/BerriAI/litellm/pull/26868) | fix(embedding): respect drop_params for unsupported dimensions parameter |
 | [LiteLLM](https://github.com/BerriAI/litellm) |  | [#26867](https://github.com/BerriAI/litellm/pull/26867) | fix(proxy): coerce numeric budget settings from env var to float |
 | [autogen](https://github.com/microsoft/autogen) | ![](https://img.shields.io/github/stars/microsoft/autogen?style=flat-square&label=) | [#7611](https://github.com/microsoft/autogen/pull/7611) | feat(code_executors): add opt-in sandbox flag to LocalCommandLineCode... |
 | [crewAI](https://github.com/crewAIInc/crewAI) | ![](https://img.shields.io/github/stars/crewAIInc/crewAI?style=flat-square&label=) | [#5307](https://github.com/crewAIInc/crewAI/pull/5307) | fix: replace eval() with safe AST evaluator in calculator template |
 | [Cherry Studio](https://github.com/CherryHQ/cherry-studio) | ![](https://img.shields.io/github/stars/CherryHQ/cherry-studio?style=flat-square&label=) | [#15103](https://github.com/CherryHQ/cherry-studio/pull/15103) | fix(mcp): invalidate network-backed MCP clients on proxy change (#14454) |
-| [Gradio](https://github.com/gradio-app/gradio) | ![](https://img.shields.io/github/stars/gradio-app/gradio?style=flat-square&label=) | [#13388](https://github.com/gradio-app/gradio/pull/13388) | test: regression coverage for from_config proxy_url SSRF guard (GHSA-... |
 <!-- CONTRIBUTIONS:END -->
 
