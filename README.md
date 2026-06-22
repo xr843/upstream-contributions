@@ -44,9 +44,7 @@
 | Project | Stars | PR | Description |
 |---------|-------|----|-------------|
 | [Dify](https://github.com/langgenius/dify) | ![](https://img.shields.io/github/stars/langgenius/dify?style=flat-square&label=) | [#36197](https://github.com/langgenius/dify/pull/36197) | fix(security): reject internal-address targets in MCP server_url vali... |
-| [Cherry Studio](https://github.com/CherryHQ/cherry-studio) | ![](https://img.shields.io/github/stars/CherryHQ/cherry-studio?style=flat-square&label=) | [#15728](https://github.com/CherryHQ/cherry-studio/pull/15728) | fix(azure): respect user-configured apiVersion in URL preview (#11691) |
-| [Cherry Studio](https://github.com/CherryHQ/cherry-studio) |  | [#15103](https://github.com/CherryHQ/cherry-studio/pull/15103) | fix(mcp): invalidate network-backed MCP clients on proxy change (#14454) |
 | [autogen](https://github.com/microsoft/autogen) | ![](https://img.shields.io/github/stars/microsoft/autogen?style=flat-square&label=) | [#7611](https://github.com/microsoft/autogen/pull/7611) | feat(code_executors): add opt-in sandbox flag to LocalCommandLineCode... |
-| [crewAI](https://github.com/crewAIInc/crewAI) | ![](https://img.shields.io/github/stars/crewAIInc/crewAI?style=flat-square&label=) | [#5307](https://github.com/crewAIInc/crewAI/pull/5307) | fix: replace eval() with safe AST evaluator in calculator template |
+| [Cherry Studio](https://github.com/CherryHQ/cherry-studio) | ![](https://img.shields.io/github/stars/CherryHQ/cherry-studio?style=flat-square&label=) | [#15728](https://github.com/CherryHQ/cherry-studio/pull/15728) | fix(azure): respect user-configured apiVersion in URL preview (#11691) |
 <!-- CONTRIBUTIONS:END -->
 
