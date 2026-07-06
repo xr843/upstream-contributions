@@ -26,7 +26,6 @@
 | [Cherry Studio](https://github.com/CherryHQ/cherry-studio) | ![](https://img.shields.io/github/stars/CherryHQ/cherry-studio?style=flat-square&label=) | [#14083](https://github.com/CherryHQ/cherry-studio/pull/14083) | fix: clean up OAuth tokens when deleting MCP server |
 | [Cherry Studio](https://github.com/CherryHQ/cherry-studio) |  | [#13893](https://github.com/CherryHQ/cherry-studio/pull/13893) | fix(security): prevent XSS via dangerouslySetInnerHTML in MCP descrip... |
 | [Cherry Studio](https://github.com/CherryHQ/cherry-studio) |  | [#13892](https://github.com/CherryHQ/cherry-studio/pull/13892) | fix(security): validate URLs in shell.openExternal and prevent path t... |
-| [gstack](https://github.com/garrytan/gstack) | ![](https://img.shields.io/github/stars/garrytan/gstack?style=flat-square&label=) | [#128](https://github.com/garrytan/gstack/pull/128) | fix: eliminate duplicate command sets in chain, improve flush perf an... |
 | [SurfSense](https://github.com/MODSetter/SurfSense) | ![](https://img.shields.io/github/stars/MODSetter/SurfSense?style=flat-square&label=) | [#1238](https://github.com/MODSetter/SurfSense/pull/1238) | feat: add maxLength constraints to auth and settings form inputs |
 | [SurfSense](https://github.com/MODSetter/SurfSense) |  | [#1237](https://github.com/MODSetter/SurfSense/pull/1237) | fix(a11y): remove nested <main> landmarks under (home) layout |
 | [SurfSense](https://github.com/MODSetter/SurfSense) |  | [#1232](https://github.com/MODSetter/SurfSense/pull/1232) | fix(web): clear announcement stagger timers on unmount |
@@ -37,7 +36,6 @@
 | [trailofbits/skills](https://github.com/trailofbits/skills) | ![](https://img.shields.io/github/stars/trailofbits/skills?style=flat-square&label=) | [#130](https://github.com/trailofbits/skills/pull/130) | docs(aflpp): add opinionated environment variables guide |
 | [buddhist-uni.github.io](https://github.com/buddhist-uni/buddhist-uni.github.io) | ![](https://img.shields.io/github/stars/buddhist-uni/buddhist-uni.github.io?style=flat-square&label=) | [#637](https://github.com/buddhist-uni/buddhist-uni.github.io/pull/637) | Split search_index.js into pure JS logic and Liquid data template |
 | [buddhist-uni.github.io](https://github.com/buddhist-uni/buddhist-uni.github.io) |  | [#636](https://github.com/buddhist-uni/buddhist-uni.github.io/pull/636) | Added Node.js unit tests for core JavaScript utilities |
-| [buddhist-uni.github.io](https://github.com/buddhist-uni/buddhist-uni.github.io) |  | [#634](https://github.com/buddhist-uni/buddhist-uni.github.io/pull/634) | Add help text to Archive.org borrowable links |
 
 ## In Review
 
