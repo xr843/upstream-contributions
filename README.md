@@ -18,18 +18,16 @@
 | [Gradio](https://github.com/gradio-app/gradio) |  | [#13204](https://github.com/gradio-app/gradio/pull/13204) | fix: preserve special characters in uploaded filenames |
 | [Gradio](https://github.com/gradio-app/gradio) |  | [#13182](https://github.com/gradio-app/gradio/pull/13182) | fix: make example field optional in cc build |
 | [Gradio](https://github.com/gradio-app/gradio) |  | [#13159](https://github.com/gradio-app/gradio/pull/13159) | fix: add Starlette 1.0 compatibility |
-| [Cherry Studio](https://github.com/CherryHQ/cherry-studio) | ![](https://img.shields.io/github/stars/CherryHQ/cherry-studio?style=flat-square&label=) | [#14083](https://github.com/CherryHQ/cherry-studio/pull/14083) | fix: clean up OAuth tokens when deleting MCP server |
-| [Cherry Studio](https://github.com/CherryHQ/cherry-studio) |  | [#13893](https://github.com/CherryHQ/cherry-studio/pull/13893) | fix(security): prevent XSS via dangerouslySetInnerHTML in MCP descrip... |
-| [Cherry Studio](https://github.com/CherryHQ/cherry-studio) |  | [#13892](https://github.com/CherryHQ/cherry-studio/pull/13892) | fix(security): validate URLs in shell.openExternal and prevent path t... |
 | [LiteLLM](https://github.com/BerriAI/litellm) | ![](https://img.shields.io/github/stars/BerriAI/litellm?style=flat-square&label=) | [#26868](https://github.com/BerriAI/litellm/pull/26868) | fix(embedding): respect drop_params for unsupported dimensions parameter |
 | [LiteLLM](https://github.com/BerriAI/litellm) |  | [#25777](https://github.com/BerriAI/litellm/pull/25777) | fix(utils): allowed_openai_params must not forward unset params as None |
+| [Cherry Studio](https://github.com/CherryHQ/cherry-studio) | ![](https://img.shields.io/github/stars/CherryHQ/cherry-studio?style=flat-square&label=) | [#14083](https://github.com/CherryHQ/cherry-studio/pull/14083) | fix: clean up OAuth tokens when deleting MCP server |
+| [Cherry Studio](https://github.com/CherryHQ/cherry-studio) |  | [#13892](https://github.com/CherryHQ/cherry-studio/pull/13892) | fix(security): validate URLs in shell.openExternal and prevent path t... |
 | [SurfSense](https://github.com/MODSetter/SurfSense) | ![](https://img.shields.io/github/stars/MODSetter/SurfSense?style=flat-square&label=) | [#1238](https://github.com/MODSetter/SurfSense/pull/1238) | feat: add maxLength constraints to auth and settings form inputs |
 | [SurfSense](https://github.com/MODSetter/SurfSense) |  | [#1237](https://github.com/MODSetter/SurfSense/pull/1237) | fix(a11y): remove nested <main> landmarks under (home) layout |
 | [SurfSense](https://github.com/MODSetter/SurfSense) |  | [#1232](https://github.com/MODSetter/SurfSense/pull/1232) | fix(web): clear announcement stagger timers on unmount |
 | [SurfSense](https://github.com/MODSetter/SurfSense) |  | [#1230](https://github.com/MODSetter/SurfSense/pull/1230) | fix(web): memoize Zero provider opts to prevent reconnect churn |
 | [SurfSense](https://github.com/MODSetter/SurfSense) |  | [#1229](https://github.com/MODSetter/SurfSense/pull/1229) | fix(web): drop react-dom/server from inline-mention-editor bundle |
 | [SurfSense](https://github.com/MODSetter/SurfSense) |  | [#886](https://github.com/MODSetter/SurfSense/pull/886) | fix: use asyncio.to_thread for embedding calls in search endpoints |
-| [Haystack](https://github.com/deepset-ai/haystack) | ![](https://img.shields.io/github/stars/deepset-ai/haystack?style=flat-square&label=) | [#10969](https://github.com/deepset-ai/haystack/pull/10969) | docs: add AzureDocumentIntelligenceConverter documentation |
 
 ## In Review
 
