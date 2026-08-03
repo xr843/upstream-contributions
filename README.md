@@ -11,23 +11,20 @@
 | [Dify](https://github.com/langgenius/dify) |  | [#35793](https://github.com/langgenius/dify/pull/35793) | fix(security): enforce tenant scoping on app trace-config endpoints (... |
 | [Dify](https://github.com/langgenius/dify) |  | [#35726](https://github.com/langgenius/dify/pull/35726) | fix(plugin): preserve multi-value HTTP response headers |
 | [Dify](https://github.com/langgenius/dify) |  | [#35267](https://github.com/langgenius/dify/pull/35267) | test(types): replace Account/Tenant status string literals with enum ... |
-| [Dify](https://github.com/langgenius/dify) |  | [#34456](https://github.com/langgenius/dify/pull/34456) | fix(security): add tenant_id validation to prevent IDOR in data sourc... |
-| [Dify](https://github.com/langgenius/dify) |  | [#34379](https://github.com/langgenius/dify/pull/34379) | refactor: migrate service_api and inner_api to sessionmaker pattern |
 | [Gradio](https://github.com/gradio-app/gradio) | ![](https://img.shields.io/github/stars/gradio-app/gradio?style=flat-square&label=) | [#13388](https://github.com/gradio-app/gradio/pull/13388) | test: regression coverage for from_config proxy_url SSRF guard (GHSA-... |
 | [Gradio](https://github.com/gradio-app/gradio) |  | [#13384](https://github.com/gradio-app/gradio/pull/13384) | fix(security): isolate /proxy= cookie jars across Spaces (GHSA-2mr9-9... |
 | [Gradio](https://github.com/gradio-app/gradio) |  | [#13204](https://github.com/gradio-app/gradio/pull/13204) | fix: preserve special characters in uploaded filenames |
-| [Gradio](https://github.com/gradio-app/gradio) |  | [#13182](https://github.com/gradio-app/gradio/pull/13182) | fix: make example field optional in cc build |
 | [Gradio](https://github.com/gradio-app/gradio) |  | [#13159](https://github.com/gradio-app/gradio/pull/13159) | fix: add Starlette 1.0 compatibility |
 | [LiteLLM](https://github.com/BerriAI/litellm) | ![](https://img.shields.io/github/stars/BerriAI/litellm?style=flat-square&label=) | [#26868](https://github.com/BerriAI/litellm/pull/26868) | fix(embedding): respect drop_params for unsupported dimensions parameter |
 | [LiteLLM](https://github.com/BerriAI/litellm) |  | [#25777](https://github.com/BerriAI/litellm/pull/25777) | fix(utils): allowed_openai_params must not forward unset params as None |
-| [Cherry Studio](https://github.com/CherryHQ/cherry-studio) | ![](https://img.shields.io/github/stars/CherryHQ/cherry-studio?style=flat-square&label=) | [#14083](https://github.com/CherryHQ/cherry-studio/pull/14083) | fix: clean up OAuth tokens when deleting MCP server |
-| [Cherry Studio](https://github.com/CherryHQ/cherry-studio) |  | [#13892](https://github.com/CherryHQ/cherry-studio/pull/13892) | fix(security): validate URLs in shell.openExternal and prevent path t... |
 | [SurfSense](https://github.com/MODSetter/SurfSense) | ![](https://img.shields.io/github/stars/MODSetter/SurfSense?style=flat-square&label=) | [#1238](https://github.com/MODSetter/SurfSense/pull/1238) | feat: add maxLength constraints to auth and settings form inputs |
 | [SurfSense](https://github.com/MODSetter/SurfSense) |  | [#1237](https://github.com/MODSetter/SurfSense/pull/1237) | fix(a11y): remove nested <main> landmarks under (home) layout |
 | [SurfSense](https://github.com/MODSetter/SurfSense) |  | [#1232](https://github.com/MODSetter/SurfSense/pull/1232) | fix(web): clear announcement stagger timers on unmount |
 | [SurfSense](https://github.com/MODSetter/SurfSense) |  | [#1230](https://github.com/MODSetter/SurfSense/pull/1230) | fix(web): memoize Zero provider opts to prevent reconnect churn |
 | [SurfSense](https://github.com/MODSetter/SurfSense) |  | [#1229](https://github.com/MODSetter/SurfSense/pull/1229) | fix(web): drop react-dom/server from inline-mention-editor bundle |
 | [SurfSense](https://github.com/MODSetter/SurfSense) |  | [#886](https://github.com/MODSetter/SurfSense/pull/886) | fix: use asyncio.to_thread for embedding calls in search endpoints |
+| [Cherry Studio](https://github.com/CherryHQ/cherry-studio) | ![](https://img.shields.io/github/stars/CherryHQ/cherry-studio?style=flat-square&label=) | [#14083](https://github.com/CherryHQ/cherry-studio/pull/14083) | fix: clean up OAuth tokens when deleting MCP server |
+| [garak](https://github.com/NVIDIA/garak) | ![](https://img.shields.io/github/stars/NVIDIA/garak?style=flat-square&label=) | [#1892](https://github.com/NVIDIA/garak/pull/1892) | fix(rest): clear error when response_json_field matches a non-text re... |
 
 ## In Review
 
@@ -38,7 +35,6 @@
 | [Cherry Studio](https://github.com/CherryHQ/cherry-studio) | ![](https://img.shields.io/github/stars/CherryHQ/cherry-studio?style=flat-square&label=) | [#15728](https://github.com/CherryHQ/cherry-studio/pull/15728) | fix(azure): respect user-configured apiVersion in URL preview (#11691) |
 | [garak](https://github.com/NVIDIA/garak) | ![](https://img.shields.io/github/stars/NVIDIA/garak?style=flat-square&label=) | [#1894](https://github.com/NVIDIA/garak/pull/1894) | probe: add sandwich multilingual jailbreak probe (random variant) |
 | [garak](https://github.com/NVIDIA/garak) |  | [#1893](https://github.com/NVIDIA/garak/pull/1893) | detectors: add fullmatch matchtype and strip option to StringDetector |
-| [garak](https://github.com/NVIDIA/garak) |  | [#1892](https://github.com/NVIDIA/garak/pull/1892) | fix(rest): clear error when response_json_field matches a non-text re... |
 | [garak](https://github.com/NVIDIA/garak) |  | [#1891](https://github.com/NVIDIA/garak/pull/1891) | feat: add MCP tool-use security probes (probes.tooluse) (#1872) |
 | [deepeval](https://github.com/confident-ai/deepeval) | ![](https://img.shields.io/github/stars/confident-ai/deepeval?style=flat-square&label=) | [#2812](https://github.com/confident-ai/deepeval/pull/2812) | feat(metrics): add AdversarialRobustnessMetric (RoMA-based) (#2150) |
 <!-- CONTRIBUTIONS:END -->
