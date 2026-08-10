@@ -25,17 +25,18 @@
 | [SurfSense](https://github.com/MODSetter/SurfSense) |  | [#886](https://github.com/MODSetter/SurfSense/pull/886) | fix: use asyncio.to_thread for embedding calls in search endpoints |
 | [Cherry Studio](https://github.com/CherryHQ/cherry-studio) | ![](https://img.shields.io/github/stars/CherryHQ/cherry-studio?style=flat-square&label=) | [#14083](https://github.com/CherryHQ/cherry-studio/pull/14083) | fix: clean up OAuth tokens when deleting MCP server |
 | [garak](https://github.com/NVIDIA/garak) | ![](https://img.shields.io/github/stars/NVIDIA/garak?style=flat-square&label=) | [#1892](https://github.com/NVIDIA/garak/pull/1892) | fix(rest): clear error when response_json_field matches a non-text re... |
+| [haidian](https://github.com/open-city-ai/haidian) | ![](https://img.shields.io/github/stars/open-city-ai/haidian?style=flat-square&label=) | [#914](https://github.com/open-city-ai/haidian/pull/914) | Submit jingzhang-two-way-line: 京张对开 THE TWO-WAY LINE (formal, xr843) |
 
 ## In Review
 
 | Project | Stars | PR | Description |
 |---------|-------|----|-------------|
-| [Dify](https://github.com/langgenius/dify) | ![](https://img.shields.io/github/stars/langgenius/dify?style=flat-square&label=) | [#36197](https://github.com/langgenius/dify/pull/36197) | fix(security): reject internal-address targets in MCP server_url vali... |
 | [LiteLLM](https://github.com/BerriAI/litellm) | ![](https://img.shields.io/github/stars/BerriAI/litellm?style=flat-square&label=) | [#31489](https://github.com/BerriAI/litellm/pull/31489) | fix(exceptions): stop leaking stack traces / internal file paths in A... |
 | [Cherry Studio](https://github.com/CherryHQ/cherry-studio) | ![](https://img.shields.io/github/stars/CherryHQ/cherry-studio?style=flat-square&label=) | [#15728](https://github.com/CherryHQ/cherry-studio/pull/15728) | fix(azure): respect user-configured apiVersion in URL preview (#11691) |
 | [garak](https://github.com/NVIDIA/garak) | ![](https://img.shields.io/github/stars/NVIDIA/garak?style=flat-square&label=) | [#1894](https://github.com/NVIDIA/garak/pull/1894) | probe: add sandwich multilingual jailbreak probe (random variant) |
 | [garak](https://github.com/NVIDIA/garak) |  | [#1893](https://github.com/NVIDIA/garak/pull/1893) | detectors: add fullmatch matchtype and strip option to StringDetector |
 | [garak](https://github.com/NVIDIA/garak) |  | [#1891](https://github.com/NVIDIA/garak/pull/1891) | feat: add MCP tool-use security probes (probes.tooluse) (#1872) |
 | [deepeval](https://github.com/confident-ai/deepeval) | ![](https://img.shields.io/github/stars/confident-ai/deepeval?style=flat-square&label=) | [#2812](https://github.com/confident-ai/deepeval/pull/2812) | feat(metrics): add AdversarialRobustnessMetric (RoMA-based) (#2150) |
+| [haidian](https://github.com/open-city-ai/haidian) | ![](https://img.shields.io/github/stars/open-city-ai/haidian?style=flat-square&label=) | [#1216](https://github.com/open-city-ai/haidian/pull/1216) | fix(two-way-line): persist real four-gate self-check evidence (#883/#... |
 <!-- CONTRIBUTIONS:END -->
 
