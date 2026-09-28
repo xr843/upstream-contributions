@@ -5,14 +5,10 @@
 
 | Project | Stars | PR | Description |
 |---------|-------|----|-------------|
-| [Dify](https://github.com/langgenius/dify) | ![](https://img.shields.io/github/stars/langgenius/dify?style=flat-square&label=) | [#35843](https://github.com/langgenius/dify/pull/35843) | fix(commands): purge tenant tool credentials on reset-encrypt-key-pai... |
-| [Dify](https://github.com/langgenius/dify) |  | [#35797](https://github.com/langgenius/dify/pull/35797) | fix(security): tenant-scope FilePreviewApi text-extract endpoint (GHS... |
-| [Dify](https://github.com/langgenius/dify) |  | [#35796](https://github.com/langgenius/dify/pull/35796) | fix(security): reject path traversal sequences before plugin daemon f... |
-| [Dify](https://github.com/langgenius/dify) |  | [#35793](https://github.com/langgenius/dify/pull/35793) | fix(security): enforce tenant scoping on app trace-config endpoints (... |
+| [Dify](https://github.com/langgenius/dify) | ![](https://img.shields.io/github/stars/langgenius/dify?style=flat-square&label=) | [#35796](https://github.com/langgenius/dify/pull/35796) | fix(security): reject path traversal sequences before plugin daemon f... |
 | [Gradio](https://github.com/gradio-app/gradio) | ![](https://img.shields.io/github/stars/gradio-app/gradio?style=flat-square&label=) | [#13388](https://github.com/gradio-app/gradio/pull/13388) | test: regression coverage for from_config proxy_url SSRF guard (GHSA-... |
 | [Gradio](https://github.com/gradio-app/gradio) |  | [#13384](https://github.com/gradio-app/gradio/pull/13384) | fix(security): isolate /proxy= cookie jars across Spaces (GHSA-2mr9-9... |
 | [LiteLLM](https://github.com/BerriAI/litellm) | ![](https://img.shields.io/github/stars/BerriAI/litellm?style=flat-square&label=) | [#26868](https://github.com/BerriAI/litellm/pull/26868) | fix(embedding): respect drop_params for unsupported dimensions parameter |
-| [Cherry Studio](https://github.com/CherryHQ/cherry-studio) | ![](https://img.shields.io/github/stars/CherryHQ/cherry-studio?style=flat-square&label=) | [#14083](https://github.com/CherryHQ/cherry-studio/pull/14083) | fix: clean up OAuth tokens when deleting MCP server |
 | [garak](https://github.com/NVIDIA/garak) | ![](https://img.shields.io/github/stars/NVIDIA/garak?style=flat-square&label=) | [#1892](https://github.com/NVIDIA/garak/pull/1892) | fix(rest): clear error when response_json_field matches a non-text re... |
 | [haidian](https://github.com/open-city-ai/haidian) | ![](https://img.shields.io/github/stars/open-city-ai/haidian?style=flat-square&label=) | [#2729](https://github.com/open-city-ai/haidian/pull/2729) | feat(two-way-line): 深色通栏首屏 + 顶部导航 + 语言切换，并修掉数据条的字号错位 (v1.10) |
 | [haidian](https://github.com/open-city-ai/haidian) |  | [#2541](https://github.com/open-city-ai/haidian/pull/2541) | docs(geometry): 登记公告命名边界街道的 OSM 中线交叉核对（逐纬度配对，533–898 m） |
